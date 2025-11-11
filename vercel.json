@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
-  "framework": "react"
+  "installCommand": "pnpm install",
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
